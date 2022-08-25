@@ -34,9 +34,9 @@ export const QUERY_THOUGHT = gql`
       }
     }
   }
- `;
+`;
 
- export const QUERY_USER = gql`
+export const QUERY_USER = gql`
   query user($username: String!) {
     user(username: $username) {
       _id
@@ -55,4 +55,4 @@ export const QUERY_THOUGHT = gql`
       }
     }
   }
-`
+`;
